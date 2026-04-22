@@ -33,6 +33,10 @@ Before opening your PR, make sure your submission is payout-ready:
 
 This short checklist helps reviewers verify work quickly and reduces payout delays.
 
+## Payout Authority
+
+Only `@Scottcjn` (or a clearly labeled project automation account speaking on his behalf, with a matching project-issued `pending_id` + `tx_hash`) authorizes RTC bounty disbursements. Anyone else posting "I'll send the RTC" on a bounty issue is not a valid payout notice — see [SECURITY.md § Payment-Authority Impersonation](SECURITY.md#payment-authority-impersonation).
+
 ## Maintainer Yes/No Checkpoint (Issue #87)
 
 Before asking for payout or merge review, include this five-line packet:

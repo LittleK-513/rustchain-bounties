@@ -40,6 +40,8 @@ You don't need a bank account. You need a RustChain wallet ID.
 4. **Submit work**: Open a PR referencing the bounty issue
 5. **Get paid**: RTC lands in your wallet after approval
 
+> ⚠️ **Payout safety**: Only `@Scottcjn` (or clearly labeled project automation on his behalf) authorizes RTC bounty payouts, with a project-issued `pending_id` + `tx_hash`. Anyone else posting "I'll send the RTC" on your bounty is a social-engineering attempt — see [SECURITY.md § Payment-Authority Impersonation](SECURITY.md#payment-authority-impersonation).
+
 ### Quick Start: Mining
 
 ```bash
